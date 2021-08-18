@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Meal Generator</title>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<div class="container">
+		<h1>Meal Generator</h1>
+		<div class="flex">
+			<!--Search Form-->
+			<form class="flex" id="submit">
+				<input type="text" name="search" id="search" placeholder="Search">
+				<button class="search-btn" type="submit">
+					<i class="fas fa-search"></i>
+				</button>
+			</form>
+			<!--Random Generator Button-->
+			<button class="generator-btn" id="generate">
+				<i class="fas fa-random"></i>
+			</button>
+		</div>
+		<!--Heading for search result-->
+		<div id="results-heandling"></div>
+
+		<!--div to contain meal returned from API-->
+		<div class="meals" id="meals"></div>
+
+		<!--Details of selected meal-->
+		<div id="selected-meal"></div>
+
+	</div>
+
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
