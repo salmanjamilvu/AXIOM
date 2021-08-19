@@ -78,6 +78,40 @@ input[type='text']{
 .meal:hover .meal-info{
 	opacity: 1;
 }
+.selected-meal-details {
+	margin: auto;
+	width: 100%;
+}
+.selected-meal-details img{
+	width: 300px;
+	margin: 20px;
+	border-radius: 10px;
+	border: 2px solid white;
+}
+.selected-meal-info{
+	margin: 20px;
+	padding: 10px;
+	border: 2px dotted white;
+	border-radius: 10px;
+}
+.selected-meal-inctructions{
+	margin: 0;
+	letter-spacing: 0.5px;
+	line-height: 1.5px;
+	text-align: justify;
+}
+.selected-meal-inctructions ul{
+	padding-left: 0;
+	list-style-type: none;
+}
+.selected-meal-inctructions ul li{
+	border: 1px solid white;
+	border-radius: 5px;
+	margin-top: 10px;
+	padding: 10px;
+	font-size: 18px;
+	
+}
 
 @media (max-width: 500px){
 	input[type='text']{
